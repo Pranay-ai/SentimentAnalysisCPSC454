@@ -10,8 +10,8 @@ import numpy
 import tensorflow as tf
 from keras_preprocessing.sequence import pad_sequences
 from nltk.corpus import stopwords
-aws_acess_key_id = 'AKIARH4WOD4KPROZTXXK'
-aws_secret_key="HkUy+Wnf7DFgGRMmrcOTkVGGC/H0vy/8q2FDudCk"
+aws_acess_key_id = 'Your Acess Key'
+aws_secret_key="Your Secret Key"
 api_link = 'https://9v8y7h8huh.execute-api.us-west-2.amazonaws.com/stage-1/api-sentiment'
 print("Loading Libraries")
 nltk.download('stopwords')
